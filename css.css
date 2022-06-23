@@ -1,0 +1,24 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.navbar{
+	box-shadow: 3px 3px 3px grey;
+}
+.navbar-nav{
+	/*margin-left: 900px;
+*/}
+.navbar a{
+	border-bottom: 3px solid transparent;
+}
+.navbar a:hover{
+    border-bottom: 4px solid gold;
+}
+
+.image{
+	width: 100%;
+	height: 550px;
+	background-size: cover;
+	background-image: url(hua.jpg);
+	filter: brightness(100%);
+}

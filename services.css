@@ -1,0 +1,87 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.navbar{
+	box-shadow: 3px 3px 3px grey;
+}
+.navbar-nav{
+	margin-left: 800px;
+}
+.navbar a{
+	border-bottom: 3px solid transparent;
+}
+.navbar a:hover{
+    border-bottom: 4px solid gold;
+}
+.image{
+	width: 100%;
+	height: 550px;
+	background-size: cover;
+	background-image: url(1.png);
+	filter: brightness(34%);
+}
+.text{
+	text-align: center;
+	font-family: Segoe Ui;
+	color: white;
+	margin-top: -300px;
+	margin-left: 100px;
+	margin-right: 80px;
+	color: white;
+	z-index: 30;
+	position: relative;
+}
+.text h2{
+	font-size: 80px;
+}
+.text p{
+	font-size: 25px;
+}
+.gambar{
+	width: 100%;
+	height: 550px;
+	background-size: cover;
+	background-image: url(img/7.jpg);
+	filter: brightness(34%);
+	margin-top: -50px;
+}
+.text1{
+	text-align: center;
+	font-family: Segoe Ui;
+	color: white;
+	margin-top: -350px;
+	margin-left: 100px;
+	margin-right: 80px;
+	color: white;
+	z-index: 30;
+	position: relative;
+}
+.text1 h2{
+	font-size: 80px;
+}
+.text1 p{
+	font-size: 25px;
+}
+.text1 .tombol{
+	background: #c12020;
+  	border-radius: 20px;
+	color: white;
+	margin-left: -10px;
+	padding: 5px 50px;
+	/*border-top: 0;
+	border-left: 0;
+	border-right: 0;*/
+	border-bottom: 5px solid #840f0f;
+	text-decoration: none;
+	font-family: Segoe Ui;
+	font-size: 20px;
+}
+.text1 .tombol:hover{
+	background-color: #840f0f;
+}
+.text1 .tombol:active {
+  background-color: #840f0f;
+  box-shadow: 0 2px #666;
+  transform: translateY(5px);
+}

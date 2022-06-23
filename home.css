@@ -1,0 +1,67 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.navbar{
+	box-shadow: 3px 3px 3px grey;
+}
+.navbar-nav{
+	margin-left: 75%;
+}
+.navbar a{
+	border-bottom: 3px solid transparent;
+}
+.navbar a:hover{
+    border-bottom: 4px solid gold;
+}
+.image{
+	width: 100%;
+	height: 550px;
+	background-size: cover;
+	background-image: url(img/f.jpg);
+	filter: brightness(34%);
+}
+.text{
+	text-align: center;
+	font-family: Segoe Ui;
+	color: white;
+	margin-top: -300px;
+	margin-left: 100px;
+	margin-right: 80px;
+	color: white;
+	z-index: 30;
+	position: relative;
+}
+.text h2{
+	font-size: 50px;
+}
+.text p{
+	font-size: 25px;
+}
+.poto{
+	width: 100%;
+	height: 200px;
+	background-image: url(img/p.jpg);
+	background-size: cover;
+	transition: .5s;
+	box-shadow: 5px 10px 10px grey;
+}
+img: hover{
+	transform: scale(1.5) rotate(1deg);
+}	
+.poto1{
+	width: 100%;
+	height: 200px;
+	background-image: url(img/p1.png);
+	background-size: cover;
+	transition: all .5s;
+	box-shadow: 5px 10px 10px grey;
+}
+.poto2{
+	width: 100%;
+	height: 200px;
+	background-image: url(img/p2.jpg);
+	background-size: cover;
+	transition: all .5s;
+	box-shadow: 5px 10px 10px grey;
+}

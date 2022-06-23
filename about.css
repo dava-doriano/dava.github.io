@@ -1,0 +1,45 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.navbar{
+	box-shadow: 3px 3px 3px grey;
+}
+.navbar-nav{
+	margin-left: 800px;
+}
+.navbar a{
+	border-bottom: 3px solid transparent;
+}
+.navbar a:hover{
+    border-bottom: 4px solid gold;
+}
+.image{
+	width: 100%;
+	height: 550px;
+	background-size: cover;
+	background-image: url(1.png);
+	filter: brightness(34%);
+}
+.text{
+	text-align: center;
+	font-family: Segoe Ui;
+	color: white;
+	margin-top: -300px;
+	margin-left: 100px;
+	margin-right: 80px;
+	color: white;
+	z-index: 30;
+	position: relative;
+}
+.text h2{
+	font-size: 80px;
+}
+.text p{
+	font-size: 25px;
+}
+.jumbotron{
+	height: 550px;
+	background-size: cover;
+	background-image: url(img/web-background-images-hd-wallpapers-res-wallpaper-web-page-background-design-blue-pattern-white-cute-hijau-images-hd-wallpapers.jpg);
+}
